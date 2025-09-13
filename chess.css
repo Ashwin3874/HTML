@@ -1,0 +1,27 @@
+.box{
+    width: 800px;
+    height: 800px;
+    border: solid 2px black;
+    margin: auto;
+}
+.row{
+    width: 800px;
+    height: 100px;
+    background-color: aqua;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 71, 71);
+    float: left;
+    text-align: center;
+    font-size: 80px;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background:white;
+    float: left;
+    text-align: center;
+    font-size: 80px;
+}

@@ -1,0 +1,28 @@
+.board{
+    height: 520px;
+    width: 520px;
+    border: solid 1px;
+    margin: auto;
+}
+.row{
+    width: 520px;
+    height: 50px;
+    background-color: aqua;
+}
+.white{
+    width: 50px;
+    height: 50px;
+    border: solid 1px;
+    background-color: aliceblue;
+    
+    float: left;
+    text-align: center;
+}
+.purple{
+     height: 50px;
+    width: 50px;
+    background-color:purple;
+    border: solid 1px;
+    float: left;
+    text-align: center;
+}

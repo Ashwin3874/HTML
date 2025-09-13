@@ -1,0 +1,49 @@
+.box{
+    height: 639px;
+    width: 639px;
+    border: solid 2px green;
+    margin: auto;
+}
+.row{
+    width: 638px;
+    height: 40px;
+    background-color: aqua;
+    border: solid 1px;
+}
+.red{
+    width: 40px;
+    height: 40px;
+    background-color: darkred;
+    float: left;
+    border:solid 1px;
+
+}
+.yellow{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(253, 253, 0);
+    float: left;
+    border: solid 1px;
+    
+}
+.green{
+    width: 40px;
+    height: 40px;
+    background-color: darkgreen;
+    float: left;
+    border: solid 1px;
+}
+.blue{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    float: left;
+    border:solid 1px;
+}
+.white{
+    width: 40px;
+    height: 40px;
+    background-color: azure;
+    float: left;
+    border:solid 1px;
+}
