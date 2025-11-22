@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!--header section start-->
+    <div class="container mt-3 ">
+
+        <div class="row bg-warning rounded-pill text-white p-3">
+            <div class="col-md-2">
+
+                <img src="img/a.png" alt="" height="50px" width="50px">
+            </div>
+            <div class="col-md-4 text-center text-primary">
+                <h2><b>A-one Classes</b></h2>
+            </div>
+            <div class="col-md-6 text-end ">
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!--header section end-->
+    <!-- Main Content -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/contact.png" alt="contact" height="360px" width="380px">
+            </div>
+            <div class="col-md-6">
+                <h1 class="CC">Contact Us</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label"><b>Full Name:</b></label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your name..">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label"><b>Email:</b></label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email..">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactNo" class="form-label"><b>Contact Number:</b></label>
+                        <input type="tel" class="form-control" id="contactNo" placeholder="Enter your contact number..">
+                    </div>
+                    <div class="mb-3">
+                        <label for="DOB" class="form-label"><b>Date of Birth:</b></label>
+                        <input type="date" class="form-control" id="DOB" placeholder="Enter your date of birth..">
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="select your course" class="form-label"><b>select your course</b></label>
+                        <select class="form-select" >
+                            <option value="" selected>Select your course</option>
+                            <option value="B.COM">B.COM</option>
+                            <option value="M.COM">M.COM</option>
+                            <option value="BSC.IT">BSC.IT</option>
+                            <option value="BMS">BMS</option>
+                            <option value="BA">BA</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label"><b>Address:</b></label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address..">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="inquiryType" class="form-label"><b>Type of Inquiry:</b></label>
+                        <select class="form-select" id="inquiryType">
+                            <option value="" selected>Select inquiry type</option>
+                            <option value="general">General Question</option>
+                            <option value="support">Support</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label"><b>Message:</b></label>
+                        <textarea class="form-control" id="message" rows="4"
+                            placeholder="Enter your message.."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
