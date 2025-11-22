@@ -187,3 +187,56 @@ a{
     text-align: center;
     margin-top: 20px;
 }
+.C{
+    font-size: 30px;
+    font-weight: bold;
+    color: #9b4308;
+    text-align: center;
+    margin-top: 20px;
+}
+/*Contact section*/
+.MC{
+    height: 400px;
+    width: 1200px;
+    border: solid 1px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+
+
+}
+.MC1{
+    height: 400px;
+    width: 400px;
+    border: solid 0px;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+}  
+.MC2{
+    height: 400px;
+    width: 798px;
+    border: solid 0px;
+    margin: auto;
+    float: left;
+    text-align: center;
+
+} 
+.TC{
+    height: 300px;
+    width: 798px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.CC{
+    font-size: 50px;
+    font-weight: bold;
+    color: #9b4308;
+    text-align: center;
+    margin-top: 20px;
+}
